@@ -1,0 +1,28 @@
+
+.top{
+  width: 100vw;
+  height: 100vh;
+  background-image: image-url('o-facebook.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: cursive;
+}
+
+.title{
+  color: white;
+}
+
+.main-text{
+  font-size: 30px;
+  text-align: center;
+  padding-top: 100px;
+  color: white;
+  text-shadow:2px 2px #00f;
+}
+.btn-white{
+  color: #fff;
+  font-size: 40px;
+  padding-top:50px;
+}
