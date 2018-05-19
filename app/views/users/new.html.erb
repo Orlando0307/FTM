@@ -1,0 +1,30 @@
+<div class="new-users-wrapper">
+  <div class="new-container">
+    <div class="row">
+      <div class="col-md-offset-4 col-md-4 users-container">
+        <h1 class="text-center text-white">Sign in</h1>
+        <%= form_for @user do |f| %>
+        <div class="form-group">
+          <%= f.label :name, class: 'text-white'%>
+          <%= f.text_field :name, class: 'form-control'%>
+        </div>
+        <div class="form-group">
+          <%= f.label :email, class: 'text-white'%>
+          <%= f.text_field :email, class: 'form-control' %>
+        </div>
+        <div class="form-group">
+          <%= f.label :birthday, class: 'text-white'%>
+          <%= f.text_field :birthday, class: 'form-control' %>
+        </div>
+        <div class="form-group">
+          <%= f.label :password_confirmation, class: 'text-white'%>
+          <%= f.password_field :password_confirmation, class: 'form-controll' %>
+        </div>
+
+        <%= f.submit "create an account", class: 'btn-block btn-white'%>
+        <%end%>
+        <%= link_to 'go to Log in', '#', class: 'text-white'%>
+      </div>
+    </div>
+  </div>
+</div>

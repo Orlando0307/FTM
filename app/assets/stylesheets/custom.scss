@@ -1,28 +1,61 @@
-
-.top{
+.container {
+  font-family: 'Comic Sans MS';
   width: 100vw;
   height: 100vh;
-  background-image: image-url('o-facebook.jpg');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+  color: #87CEFA;
+  background: linear-gradient(-135deg, #E4A972, #9941D8);
   background-size: cover;
-  font-family: cursive;
+  color: white
 }
-
-.title{
-  color: white;
+.header{
+  padding-left: 100px;
+  padding-top: 20px;
 }
-
-.main-text{
-  font-size: 30px;
+.title {
+  font-size:60px;
+}
+.main-text {
   text-align: center;
-  padding-top: 100px;
-  color: white;
-  text-shadow:2px 2px #00f;
+  font-size:50px;
 }
-.btn-white{
-  color: #fff;
-  font-size: 40px;
-  padding-top:50px;
+.contents {
+  padding-top: 20px;
+  padding-left: 60px
+}
+.text-contents {
+}
+.description li {
+  padding-top:5px;
+}
+.explanation {
+  padding-top: 5px;
+}
+p {
+  padding-left:20px;
+}
+.new-users-wrapper {
+  font-family: 'Comic Sans MS';
+  width: 100vw;
+  height: 100vh;
+  color: white;
+  background-image: image-url('violin.jpg');
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+}
+.form-group {
+  padding-bottom: 10px;
+}
+.btn-block {
+  color: black;
+}
+.text-white{
+  color: white;
+}
+.alert {
+  margin-bottom: 0px;
+  position: fixed;
+  width: 100%;
+  z-index: 10000;
 }
