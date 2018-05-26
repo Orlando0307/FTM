@@ -22,14 +22,28 @@
   padding-top: 20px;
   padding-left: 60px
 }
-.text-contents {
+.right-contents {
+  text-align: right;
+  padding-right: 100px;
 }
-.description li {
-  padding-top:5px;
+.right-contents h3 {
+  font-size: 30px;
 }
-.explanation {
-  padding-top: 5px;
+.right-contents li {
+  padding-top: 20px;
+  font-size: 20px;
+  list-style: none;
 }
+.btn {
+  font-size: 40px;
+  border: 10px solid #fff;
+  margin-top: 50px;
+}
+.btn:hover {
+  border: 10px solid #66FFFF;
+  color: #66FFFF;
+}
+
 p {
   padding-left:20px;
 }
@@ -48,7 +62,7 @@ p {
   padding-bottom: 10px;
 }
 .btn-block {
-  color: black;
+  color: white;
 }
 .text-white{
   color: white;

@@ -4,4 +4,5 @@ class User < ApplicationRecord
   validates :birthday, presence: true
 
   has_secure_password
+
 end

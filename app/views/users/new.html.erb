@@ -17,13 +17,17 @@
           <%= f.text_field :birthday, class: 'form-control' %>
         </div>
         <div class="form-group">
-          <%= f.label :password_confirmation, class: 'text-white'%>
-          <%= f.password_field :password_confirmation, class: 'form-controll' %>
+          <%= f.label :password, class: 'text-white' %>
+          <%= f.password_field :password, class: 'form-control' %>
+        </div>
+        <div class="form-group">
+          <%= f.label :password_confirmation, class: 'text-white' %>
+          <%= f.password_field :password_confirmation, class: 'form-control' %>
         </div>
 
         <%= f.submit "create an account", class: 'btn-block btn-white'%>
         <%end%>
-        <%= link_to 'go to Log in', '#', class: 'text-white'%>
+        <%= link_to 'go to Log in','#', class: 'text-white'%>
       </div>
     </div>
   </div>

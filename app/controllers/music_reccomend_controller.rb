@@ -1,0 +1,2 @@
+class MusicReccomendController < ApplicationController
+end
